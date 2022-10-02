@@ -25,7 +25,7 @@ All functions, class names, constants and variables are defined with readable na
 
 ## Deployment
 
-Deployment is done on Netlify, and live site can be found at link : [http://localhost:3000](http://localhost:3000)
+Deployment is done on Netlify, and live site can be found at link : [https://plotline-assignment-shubh.netlify.app/](https://plotline-assignment-shubh.netlify.app/)
 
 ## Run on your system
 
