@@ -1,0 +1,76 @@
+:root {
+  --toastify-color-progress-light: linear-gradient(#6254ff);
+}
+.parent-div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+.map-box {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  height: 100%;
+  width: 100%;
+}
+.input-box {
+  border-radius: 8px;
+  z-index: 1;
+  margin: 10px 300px;
+  padding: 20px;
+  background-color: rgb(255, 241, 241);
+  -webkit-box-shadow: 7px 9px 69px -42px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: 7px 9px 69px -42px rgba(0, 0, 0, 0.72);
+  box-shadow: 7px 9px 69px -42px rgba(0, 0, 0, 0.72);
+  opacity: 0.5;
+  transition: all 0.3s linear;
+}
+.input-box:hover {
+  opacity: 1;
+}
+.ib-one {
+  display: flex;
+  justify-content: space-between;
+}
+.ib-one {
+  display: flex;
+  justify-content: space-between;
+}
+
+.find-route-btn {
+  background-color: #6254ff;
+  padding: 5px 10px;
+  color: white;
+  font-weight: 700;
+  border-radius: 4px;
+  margin-right: 15px;
+}
+.css-dn5esd,
+.css-yuzwfj {
+  background: #6254ff !important;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.route-details {
+  margin-left: 10px;
+}
+
+.bold-label {
+  color: #222;
+  font-weight: 700;
+}
+.result {
+  color: #6254ff;
+}
+.select-mode-dwn {
+  padding: 5px 10px;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid rgb(228, 228, 228);
+  background-color: rgb(255, 241, 241);
+}
